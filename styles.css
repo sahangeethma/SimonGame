@@ -26,6 +26,14 @@ body {
   border-radius: 20%;
 }
 
+@media only screen and (width < 600px){
+  .btn{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+  }
+}
+
 .game-over {
   background-color: red;
   opacity: 0.8;
